@@ -22,7 +22,7 @@ type UserData struct {
 
 // waits for the launched goroutine to finish
 // sync package has the synchronization functionality
-var wg = sync.WaitGroup()
+var wg sync.WaitGroup
 
 func main() {
 	
